@@ -1,0 +1,16 @@
+# /**/*.iml
+/target
+/.idea
+out/
+.idea_modules/
+
+atlassian-ide-plugin.xml
+._*
+.Spotlight-V100
+.Trashes
+/Test_Data
+/image/
+/test-output/
+/test-result/
+*.log
+config-qa.properties
