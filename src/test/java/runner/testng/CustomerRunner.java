@@ -28,6 +28,12 @@ public class CustomerRunner extends TestBase {
         addNewCustomerPage=new AddNewCustomerPage(driver);
         customerDashboardPage=new CustomerDashboardPage(driver);
         functionPage=new FunctionPage(driver);
+        Assert.assertTrue(customerManagerLoginPage.verifyLoginPageOpened());
+    }
+    @BeforeClass
+    public void login(){
+        Assert.assertTrue(customerManagerLoginPage.login());
+
     }
     @BeforeMethod
     public void backToDashboard(){
